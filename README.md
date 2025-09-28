@@ -1,7 +1,7 @@
 # Java Backend REST API
 
 ## Project Overview:
-Spring Boot application providing REST API for task management with Mongo DB integration
+Spring Boot application providing REST API for task management with Mongo DB integration supporting CRUD operations.
 
 ## Technology and Tools:
 - Java 25
@@ -45,7 +45,7 @@ Application runs on: http://localhost:8080
 ### Execute Task command
 ![Execute task command](api_testing_screenshots/testexecute.png)
 ### Deleting a Task
-![Deleting a task]()
+![Deleting a task](api_testing_screenshots/testdelete.png)
 
 
 
