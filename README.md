@@ -30,5 +30,9 @@ Spring Boot application providing REST API for task management with Mongo DB int
 Application runs on: http://localhost:8080
 ### Applications runs successfully
 ![application runs]( api_testing_screenshots/connectionsuccess.png)
+### MongoDB Atlas cluster
+![MongoDB cluster](api_testing_screenshots/mongodbcluster.png)
+### Project structure
+![Project structure]()
 
 
