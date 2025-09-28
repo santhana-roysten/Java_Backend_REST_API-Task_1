@@ -43,7 +43,7 @@ Application runs on: http://localhost:8080
 ### Get Task by id and name
 ![Getting task by name or id](api_testing_screenshots/searchbyid.png)
 ### Execute Task command
-![Execute task command]()
+![Execute task command](api_testing_screenshots/testexecute.png)
 ### Deleting a Task
 ![Deleting a task]()
 
