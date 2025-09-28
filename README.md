@@ -35,7 +35,11 @@ Application runs on: http://localhost:8080
 ### Project structure
 ![Project structure](api_testing_screenshots/Projectstructure.png)
 
-## API Testing
+## API Testing:
+### Creating Task
+![Creating task](api_testing_screenshots/creatingtask.png)
+### Get all Task
+![Getting task]()
 
 
 
