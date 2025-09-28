@@ -11,6 +11,13 @@ Spring Boot application providing REST API for task management with Mongo DB int
 - Postman
 - IntelliJ IDEA
 
+### How to run:
+1. Clone the repository
+- git clone https://github.com/santhana-roysten/Java_Backend_REST_API-Task_1.git
+2. Open the project in any Java IDE
+3. Navigate to task-manager/src/java/com.example.task_manager/TaskManagerApplication
+4. run the TaskManagerApplication
+
 ## API Endpoints:
 - PUT /api/tasks - Create a Task
 - GET /api/tasks - Get all Tasks
@@ -34,13 +41,6 @@ Application runs on: http://localhost:8080
 ![MongoDB cluster](api_testing_screenshots/mongodbcluster.png)
 ### Project structure
 ![Project structure](api_testing_screenshots/Projectstructure.png)
-
-### How to run:
-1. Clone the repository
-- git clone https://github.com/santhana-roysten/Java_Backend_REST_API-Task_1.git
-2. Open the project in any Java IDE
-3. Navigate to task-manager/src/java/com.example.task_manager/TaskManagerApplication
-4. run the TaskManagerApplication
 
 ## API Testing:
 - Test using Postman 
