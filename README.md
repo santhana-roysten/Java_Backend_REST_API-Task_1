@@ -35,16 +35,29 @@ Application runs on: http://localhost:8080
 ### Project structure
 ![Project structure](api_testing_screenshots/Projectstructure.png)
 
+### How to run:
+1. Clone the repository
+- git clone https://github.com/santhana-roysten/Java_Backend_REST_API-Task_1.git
+2. Open the project in any Java IDE
+3. Navigate to task-manager/src/java/com.example.task_manager/TaskManagerApplication
+4. run the TaskManagerApplication
+
 ## API Testing:
+1.Open Postman 
 ### Creating Task
+-PUT https://localhost:8080/api/tasks
+-write a data in JSON Format and send
 ![Creating task](api_testing_screenshots/creatingtask.png)
 ### Get all Task
+-GET 
 ![Getting task](api_testing_screenshots/Testsearch.png)
 ### Get Task by id and name
+-GET https://localhost:8080/api/task?id="task_id"
 ![Getting task by name or id](api_testing_screenshots/searchbyid.png)
 ### Execute Task command
 ![Execute task command](api_testing_screenshots/testexecute.png)
 ### Deleting a Task
+- DELETE https://localhost:8080/api/task?id="task_id"
 ![Deleting a task](api_testing_screenshots/testdelete.png)
 
 
