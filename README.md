@@ -66,5 +66,8 @@ Application runs on: http://localhost:8080
 
 ![Deleting a task](api_testing_screenshots/testdelete.png)
 
+## Conclusion:
+This project demonstrates a Spring Boot REST API with CRUD operations and testing using postman
+
 
 
