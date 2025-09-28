@@ -25,7 +25,7 @@ Spring Boot application providing REST API for task management with Mongo DB int
 - |---- TaskExecution.java
 - |---- TaskController.java
 - |---- TaskRepository.java
-- 
+
 Application runs on: http://localhost:8080
 
 ### Applications runs successfully
@@ -43,21 +43,27 @@ Application runs on: http://localhost:8080
 4. run the TaskManagerApplication
 
 ## API Testing:
-1.Open Postman 
+- Test using Postman 
 ### Creating Task
--PUT https://localhost:8080/api/tasks
--write a data in JSON Format and send
+- PUT https://localhost:8080/api/tasks
+- write a data in JSON Format and send
+
 ![Creating task](api_testing_screenshots/creatingtask.png)
 ### Get all Task
--GET 
+- GET https://localhost:8080/api/tasks
+
 ![Getting task](api_testing_screenshots/Testsearch.png)
 ### Get Task by id and name
--GET https://localhost:8080/api/task?id="task_id"
+- GET https://localhost:8080/api/task?id="task_id"
+
 ![Getting task by name or id](api_testing_screenshots/searchbyid.png)
 ### Execute Task command
+- PUT https://localhost:8080/api/execute?id="task_id"
+
 ![Execute task command](api_testing_screenshots/testexecute.png)
 ### Deleting a Task
 - DELETE https://localhost:8080/api/task?id="task_id"
+
 ![Deleting a task](api_testing_screenshots/testdelete.png)
 
 
